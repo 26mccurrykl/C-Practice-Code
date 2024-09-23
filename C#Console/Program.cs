@@ -18,7 +18,9 @@ class Program
         //int result2 = Return1.PrintSquare(5);
         //Console.WriteLine(result2);
         //Loops.NestedLoops();
-        //Arrays.Array1(args);
-        //List.List1(args);
+        //Arrays.Array1(argo);
+        //List.List1(argo);
+        //Dictionary1.Dict1(argo);
+        Dictionary1.Dict2(argo);
     }
 }
