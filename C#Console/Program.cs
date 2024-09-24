@@ -1,9 +1,17 @@
 ﻿namespace C_Console;
+using MyCalculatorApp;
 
 class Program
 {
-    static void Main(string[] argo)
+
+    static void Main()
     {
+        Calculator calculator = new Calculator();
+        Console.WriteLine("Add(int, int): " + calculator.Add(3,4));
+        Console.WriteLine("Add(int, int, int): " + calculator.Add(3, 4, 12));
+        Console.WriteLine("Add(double, double): " + calculator.Add(3.7, 5.9));
+    }
+
         //Console.WriteLine("Hello, World!");
         //Var.MyVar();
         //Var.DataType();
@@ -18,9 +26,9 @@ class Program
         //int result2 = Return1.PrintSquare(5);
         //Console.WriteLine(result2);
         //Loops.NestedLoops();
-        //Arrays.Array1(argo);
-        //List.List1(argo);
-        //Dictionary1.Dict1(argo);
-        Dictionary1.Dict2(argo);
-    }
+        //Arrays.Array1(args);
+        //List.List1(args);
+        //Dictionary1.Dict1(args);
+        //Dictionary1.Dict2(args);
+
 }
